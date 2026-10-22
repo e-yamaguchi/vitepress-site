@@ -1,0 +1,11 @@
+# 依存ライブラリ（めちゃくちゃ重いので絶対アップロードしない）
+node_modules/
+
+# VitePressが自動生成する一時ファイルやビルド成果物
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# OSが勝手に作るゴミファイル（Mac / Windows）
+.DS_Store
+Thumbs.db
+node_modules
