@@ -6,6 +6,7 @@ docs/.vitepress/dist/
 docs/.vitepress/cache/
 
 # OSが勝手に作るゴミファイル（Mac / Windows）
+
 .DS_Store
 Thumbs.db
 node_modules
