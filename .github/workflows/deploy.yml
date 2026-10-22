@@ -30,11 +30,9 @@ jobs:
         with:
           node-version: 20
 
-      # ここで強制的に pnpm をインストールして使うように指示します
+      # バージョン指定を消して、package.jsonの設定を自動で読み込ませます
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 12
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
